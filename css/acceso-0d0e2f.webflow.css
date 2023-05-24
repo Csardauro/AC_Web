@@ -1931,6 +1931,7 @@ blockquote {
   grid-column-gap: 15px;
   border-radius: 50px;
   box-shadow: 1px 1px 4px 3px rgba(255, 207, 204, 0.28);
+  background-color: #9edaf0;
 }
 
 .line-effect {
@@ -5715,7 +5716,7 @@ blockquote {
 }
 
 .about-two-icon-box {
-  display: flex;
+  display: flexbox;
   align-items: center;
   grid-column-gap: 20px;
 }
@@ -5733,6 +5734,8 @@ blockquote {
   display: flex;
   align-items: center;
   grid-column-gap: 70px;
+  
+  
 }
 
 .about-two-features {
@@ -5854,14 +5857,22 @@ blockquote {
   flex: 1;
 }
 
+/* .about two-icon-grid 
+ grid-template-columns: repeat(3,100px);
+  grid-template-rows: repeat(3, 100px);
+
+  Modificó los elementos de la página de Servicios
+  Menú despegable con iconos en grilla de 3 en 3.
+*/
+
 .about-two-icon-grid {
+  display: grid;
   max-width: 500px;
   grid-column-gap: 30px;
   grid-row-gap: 50px;
   -ms-grid-columns: 1fr;
-  grid-template-columns: 1fr;
-  -ms-grid-rows: auto auto auto;
-  grid-template-rows: auto auto auto;
+  grid-template-columns: repeat(3,100px);
+  grid-template-rows: repeat(3, 100px);
 }
 
 .about-two-icon-block {
@@ -12924,4 +12935,5 @@ blockquote {
     grid-row-start: 1;
   }
 }
+
 
