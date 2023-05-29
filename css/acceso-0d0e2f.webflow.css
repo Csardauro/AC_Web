@@ -255,7 +255,21 @@ blockquote {
   text-transform: capitalize;
 }
 
+.button-service {
+  padding: 30px 45px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  background-color: #9edaf0;
+  transition: all 400ms ease;
+  
+ 
+}
 
+.button-service:hover {
+  border-color: #9edaf0;
+  background-color: transparent;
+  color: #9edaf0;
+}
 
 .button-main:hover {
   border-color: #1962f2;
@@ -5978,7 +5992,7 @@ blockquote {
 
 .header-button {
   display: none;
-  padding: 14px 44px;
+  padding: 14px 44px; 
   border: 1px solid transparent;
   border-radius: 50px;
   background-color: #18ACE3;
