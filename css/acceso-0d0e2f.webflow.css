@@ -1612,7 +1612,6 @@ blockquote {
   overflow: hidden;
   margin-bottom: -100px;
   padding: 170px 15px 0px;
-  background-image: linear-gradient(270deg, #f2f1fc, #fef4ed);
 }
 
 .tracking-software-hero-container {
@@ -3811,7 +3810,7 @@ blockquote {
 
 .contact-address-grid-icon-box {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: flex-start;
   grid-column-gap: 20px;
   grid-row-gap: 10px;
@@ -3869,6 +3868,7 @@ blockquote {
   justify-content: flex-end;
   align-items: flex-end;
   flex: 1;
+  padding: 40px;
 }
 
 .contact-main-form {
@@ -6017,7 +6017,7 @@ blockquote {
 
 .tracking-software-wave {
   z-index: 999;
-  margin-top: -10%;
+  margin-top: 13%;
   margin-bottom: -10%;
 }
 
@@ -8712,7 +8712,7 @@ blockquote {
   }
 
   .smart-application-cta-main-block {
-    flex-direction: column;
+    flex-direction: inherit;
     align-items: flex-start;
     grid-row-gap: 0px;
   }
@@ -12947,6 +12947,34 @@ blockquote {
     grid-row-end: 2;
     -ms-grid-row: 1;
     grid-row-start: 1;
+  }
+}
+
+.carousel-container {
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.carousel {
+  display: flex;
+  flex-wrap: nowrap;
+  transition: transform 0.5s ease;
+}
+
+.card {
+  width: 300px;
+  height: 200px;
+  background-color: #eaeaea;
+  margin-right: 10px;
+}
+
+@media (max-width: 767px) {
+  .carousel {
+    overflow-x: scroll;
+  }
+  
+  .card {
+    margin-right: 0;
   }
 }
 
