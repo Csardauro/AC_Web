@@ -748,7 +748,7 @@ blockquote {
 .body-font-number-bold {
   margin-bottom: 0px;
   font-family: 'Tajawal', sans-serif;
-  color: #f0f0f0;
+  color: #18ACE3;
   font-size: 1.8rem;
   line-height: 1.75em;
   font-weight: 700;
@@ -3809,7 +3809,7 @@ blockquote {
 
 .contact-address-grid-block {
   padding: 40px 40px 30px;
-  background-color: #18ACE3;
+  background-color: #fff;
 }
 
 .contact-address-grid-icon-box {
@@ -12966,7 +12966,7 @@ blockquote {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 300px;
+  height: 250px;
   max-width: 100%;
   background-image: url('https://ebhc.com.br/wp-content/uploads/2018/10/imagem-office.jpg');
   background-size: cover;
@@ -13169,7 +13169,7 @@ blockquote {
 }
 
 .card {
-  width: calc(44.33% - 50px);
+  width: calc(44.33% - 60px);
   height: 100px;
   margin: 10px;
   background-color: #eaeaea;
@@ -13183,7 +13183,7 @@ blockquote {
 }
 
 .card1 {
-  width: calc(66.66% - 10px);
+  width: calc(80%);
   height: 300px;
   padding-left: 12px;
   padding-top: 30px;
@@ -13192,9 +13192,9 @@ blockquote {
 
 .card2,
 .card3 {
-  width: calc(33.33% - 10px);
+  width: calc(40% - 10px);
   height: 300px;
-  padding-left: 12px;
+  padding-left: 10px;
   padding-top: 30px;
   padding-bottom: 100px;
 }
